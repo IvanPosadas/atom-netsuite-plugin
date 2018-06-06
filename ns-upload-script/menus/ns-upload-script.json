@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "NS Upload Script",
+        "command": "ns-upload-script:upload"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "NS Upload Script",
+          "submenu": [
+            {
+              "label": "Upload Script",
+              "command": "ns-upload-script:upload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

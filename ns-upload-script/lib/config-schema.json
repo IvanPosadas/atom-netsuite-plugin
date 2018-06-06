@@ -1,0 +1,22 @@
+{
+  "account":{
+    "type":"string",
+    "default":"1234567"
+    },
+  "email":{
+    "type":"string",
+    "default":"user@mail.com"
+  },
+  "password":{
+    "type":"string",
+    "default":"password"
+  },
+  "role":{
+    "type":"string",
+    "default":"3"
+  },
+  "url":{
+    "type":"string",
+    "default":"https://rest.sandbox.netsuite.com/app/site/hosting/restlet.nl?script=123456&deploy=1"
+  }
+}
